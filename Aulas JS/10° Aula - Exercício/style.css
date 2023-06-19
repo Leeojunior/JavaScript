@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+main{
+    display: flex;
+    max-width: 600px;
+
+    margin: auto;
+    text-align: center;
+    
+    padding: 60px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    width: 600px;
+}
+
+.primeira{
+    box-shadow: 8px 6px 5px #e7e4e4;
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+    height: 200px;
+    padding: 30px;
+}
+
+.segunda{
+    box-shadow: 8px 6px 5px #e7e4e4;
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #79dedc 50%, #97e5ed 100%);
+    height: 250px;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.calculo{
+    margin-top: 20px;
+}
+
+input{
+    width: 160px;
+}

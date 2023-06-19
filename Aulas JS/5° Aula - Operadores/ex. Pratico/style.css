@@ -1,0 +1,14 @@
+.principal{
+    margin: auto;
+    width: 500px;
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 10px;
+    text-align: center;
+    background-color: antiquewhite;
+
+}
+
+.botao{
+    margin-top: 5px;
+}

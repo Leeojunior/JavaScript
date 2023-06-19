@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+body
+{
+    margin: auto;
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+
+}
+p{
+    font-weight: 700;
+}
+
+.media-aritimetica
+{
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    box-shadow: 8px 8px 3px rgb(216, 212, 212);
+
+}
+
+button
+{
+    background-color: azure;
+    transition: 0.8s;
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+}
+
+button:hover
+{
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'EB Garamond', serif;
+    box-shadow: 5px 5px 5px rgb(152, 149, 149);
+   
+}

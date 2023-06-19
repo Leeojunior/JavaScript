@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Exercícios</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="primeira">
+
+            <!--Dia da semana-->
+        <h1 class="primeiroTitulo">QUAL DIA DA SEMANA É HOJE?</h1>
+        <h2 id="pregunta">DIA DA SEMANA</h2>
+        <input type="text" id="diaDaSemana" placeholder="Dias da semana de 1 a 7"><br>
+        <button class="diadasemana" onclick="botao()">Descobrir</button>
+             </div>  
+
+             <div class="segunda">
+
+                    <!--Calculos-->
+                <h1 class="segundoTitulo">Calculando</h1>
+                <h2 id="perguntaSegunda">QUAL SERÁ O CÁLCULO A SER FEITO?</h2>
+                
+                <input type="text" id="valor1" placeholder="Coloque o primeiro valor"><br>
+                <input type="text" id="operador" placeholder="Qual será a operação?"><br>
+                <input type="text" id="valor2" placeholder="Coloque o segundo valor"><br>
+                <button class="calculo" onclick="calcular()">Cálculo</button>
+                <p id="resultado"></p>
+
+             </div>
+           
+        </div>
+        
+        
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
